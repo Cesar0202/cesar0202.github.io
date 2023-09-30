@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+h3 {
+    margin: 0px;
+    padding: 5px;
+    border: 1px solid black;
+    border-top: 0px;
+    position: absolute;
+    right: 0px;
+}
+.t1{
+    background-color: palevioletred;
+}
+.t2{
+    background-color: rgb(240, 53, 33);
+}
+.t3{
+    background-color: rgb(242, 238, 23);
+}
+p {
+    color: black;
+    padding: 50px 17px 10px 17px;
+}
+
+.table {
+    background-color: gray;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    position: relative;
+    margin: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 992px) {
+    .col-md-4{
+        width: 33.33%;
+        float: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-sm-6, .col-md-4{
+        width: 50%;
+        float: left;
+    }
+    .col-xs-12{
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-xs-12{
+        width: 100%-20px;
+        float: left;
+    }
+}
